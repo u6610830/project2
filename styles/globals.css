@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e3c72;
+}
+
+.stats-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-row {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.create-row {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #2a5298;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #1e3c72;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f8f9fa;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.badge-approved {
+  background: #d4edda;
+  color: #155724;
+}
+
+.badge-rejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.badge-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.navbar {
+  background: #2a5298;
+  padding: 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.navbar-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar button {
+  background: transparent;
+  color: white;
+  padding: 0;
+}
+
+.navbar button:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.nav-role {
+  color: white;
+  font-weight: 600;
+}
